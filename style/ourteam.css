@@ -1,0 +1,82 @@
+.ourteam{
+    height: 100lvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourteam article{
+    width: 30%;
+    height: 15%;
+    text-align: center;
+}
+.ourteam article a{font-weight: 300;font-size: 60px;}
+.ourteam article p{font-size: 17px;}
+.ourteam aside{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.team-mentors{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.team-box{
+    width: 33.333%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.team-people{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.team-box nav{
+    width: 60%;
+    height: 70%;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    text-align: center;
+}
+
+.team-box nav {
+    border-radius: 8px; /* закругленные углы */
+    padding: 20px; /* отступы внутри карточки */
+
+    /* Тень, которая имитирует эффект, как в Photoshop */
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.1), /* слегка смещенная тень */
+        0 8px 16px rgba(0, 0, 0, 0.15), /* основная тень */
+        0 16px 24px rgba(0, 0, 0, 0.1); /* более мягкая, удаленная тень */
+}
+.team-box nav img{
+    width: 100px;
+    height: 100px;
+}
+.team-box nav a{line-height: 0.7;}
+.team-box nav span{
+    font-size: 14px;
+    line-height: 0;
+}
+.ourteam button{
+    height: 5%;
+    width: 7%;
+    border-radius: 40px;
+    font-size: 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.ourteam button:hover{
+    cursor: pointer;
+}
