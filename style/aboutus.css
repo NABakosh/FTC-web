@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     gap: 3%;
-    border-bottom: 1px solid rgb(71, 71, 71,0.5);
+    border-bottom: 1px solid rgba(71, 71, 71, 0.185);
 
 }
 .aboutus article{
@@ -35,7 +35,7 @@
 .card {
     margin-right: 13px;
     width: 100%; /* Примерная ширина карточки */
-    padding: 20px; /* Внутренние отступы */
+    padding: 0px 20px; /* Внутренние отступы */
     background-color: white; /* Цвет фона карточки */
     border-radius: 8px; /* Скругленные углы */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05); /* Настройка тени */
@@ -49,4 +49,4 @@
     gap:10%
 }
 .box article a{font-weight: 700;font-size: 20px;}
-.box article p{font-size: 17px;}
+.box article p{font-size: 13px;}

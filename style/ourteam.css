@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid rgba(71, 71, 71, 0.185);
 }
 .ourteam article{
     width: 30%;
@@ -62,6 +63,7 @@
 .team-box nav img{
     width: 100px;
     height: 100px;
+    border-radius: 100%;
 }
 .team-box nav a{line-height: 0.7;}
 .team-box nav span{

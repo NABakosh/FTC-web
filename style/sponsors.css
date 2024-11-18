@@ -1,0 +1,40 @@
+/* Стили для секции спонсоров */
+.sponsors {
+    background-color: #f5f5f5; /* Светлый фон */
+    padding: 40px 0; /* Отступы сверху и снизу */
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    border-bottom:1px solid rgba(128, 128, 128, 0.185);
+}
+
+.sponsors h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sponsors p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Расстояние между логотипами */
+    flex-wrap: wrap; /* Перенос логотипов на новую строку, если их много */
+}
+
+.sponsor-logos img {
+    width: 120px; /* Ширина логотипа */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    filter: grayscale(100%); /* Логотипы черно-белые */
+    transition: filter 0.3s ease-in-out;
+}
+
+.sponsor-logos img:hover {
+    filter: grayscale(0%); /* При наведении логотип становится цветным */
+}

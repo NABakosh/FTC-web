@@ -1,0 +1,46 @@
+footer{
+    width: 100%;
+    height: 40lvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer main{
+    width: 80%;
+    height: 30%;
+
+}
+.contact ul {
+    list-style: none;  /* Убирает маркеры, включая точки и другие стили */
+    padding-left: 0;  /* Убирает отступ слева, если нужно */
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.contact ul {
+    list-style: none;  /* Убирает маркеры, включая точки и другие стили */
+    padding-left: 0;  /* Убирает отступ слева, если нужно */
+}
+.contact h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}   
+.contact li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.contact li:hover {
+    color: #000; /* Изменение цвета текста при наведении */ 
+    cursor:pointer;
+}
+
+.contact ul:last-child li {
+    display: inline-block; /* Иконки в одну строку */
+    margin-right: 10px;
+}
