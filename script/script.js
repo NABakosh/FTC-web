@@ -5,7 +5,7 @@ const connects = document.querySelectorAll(".connect")
 const mira1 = document.getElementById("mira1")
 const mira2 = document.getElementById("mira2")
 
-if(width < 500){
+if(width < 700){
     mira2.style.display = 'flex';
     connects.forEach(connect => {
         connect.style.display = 'none'
@@ -14,8 +14,8 @@ if(width < 500){
 }
 else{
     mira2.style.display = 'none';
-    connect.forEach(connect => {
-        connects.style.display = 'flex'
+    connects.forEach(connect => {
+        connect.style.display = 'flex'
     })
     mira1.style.display = 'flex';
 }

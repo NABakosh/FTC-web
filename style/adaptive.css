@@ -1,3 +1,8 @@
+@media (max-width:1722px) {
+    .ourteam article{
+        width: 100%;
+    }
+}
 @media (max-width:1400px){
     .team-box nav{ 
     height: 70%;
@@ -7,6 +12,9 @@
     
 }
 @media (max-width:1000px) {
+    .home header nav aside{
+        width: 100%;
+    }
     .team-box nav{
         width: 80%;
     }
@@ -17,19 +25,22 @@
     }
     .card{
         margin-top:10%;
-        padding-bottom:30px;
+        padding-bottom:50px;
     }
-    .box{
-        height: 110vh;
-    }
-}   
+
+}
+   
 @media (max-width:800px) {
     .aboutus aside{
-        margin-top: 30px;
         width: 55%;
     }
     .aboutus article{
         width: 80%;
+    }
+}
+@media (max-width:700px) {
+    .team-mentors{
+        justify-content: space-around;
     }
 }
 @media (max-width: 350px) {
