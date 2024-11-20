@@ -1,7 +1,18 @@
-
+@media (max-width:1400px){
+    .team-box nav{ 
+    height: 70%;
+    }
+}
 @media (max-width: 1366px) {
-    .team-box nav{height: 60%; width: 60%;}
     .aboutus aside{ flex-direction: column; height: 60%;}
+}
+@media (max-width:1000px) {
+    .team-box nav{
+        width: 80%;
+    }
+    .ourteam article{
+        width: 50%;
+    }
 }
 @media (max-width: 600px) {
     .aboutus aside{
@@ -15,6 +26,7 @@
     }
     
 }
+    
 /*.team-box nav{
         height: 50%;
         width: 95%;
