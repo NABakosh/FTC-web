@@ -9,6 +9,12 @@
     }
     
 }
+@media (max-width: 520px) {
+    .aboutus aside{
+        margin-top: 60px;
+    }
+    
+}
 /*.team-box nav{
         height: 50%;
         width: 95%;
