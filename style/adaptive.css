@@ -1,0 +1,15 @@
+
+@media (max-width: 1366px) {
+    .team-box nav{height: 60%; width: 60%;}
+    .aboutus aside{ flex-direction: column; height: 60%;}
+}
+@media (max-width: 600px) {
+    .aboutus aside{
+        margin-top: 30px;
+    }
+    
+}
+/*.team-box nav{
+        height: 50%;
+        width: 95%;
+    }*/
