@@ -101,12 +101,22 @@
     .home header nav aside{
         width: 50%;
     }
+    .team-box aside{
+        width: 100%;
+
+    }
+    .team-box nav{
+        width: 80%;
+    }
     .aboutus article{
         width: 100%;
     }
     .ourteam button{
         width:40%;
         height: 4%;
+    }
+    .ourteam nav{
+        margin-top: 50%;
     }
     .robots button{
         width: 30%;
@@ -116,10 +126,19 @@
     }
 }
 @media (max-width:600px) {
+    .ourteam nav{
+        margin-top: 30%;
+    }
     .team-box nav{
         height: 50%;
-    
     }
+    .team-mentors{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+    }
+
     .ourteam{
         height: 70lvh;
     }
@@ -155,6 +174,9 @@
     }
 }
 @media (max-width: 450px) {
+    .team-box nav{
+        width: 100%;
+    }
     .aboutus{
         height: 135lvh;
     }
@@ -176,6 +198,9 @@
     }
 }
 @media (max-width: 350px) {
+    .team-mentors{
+        gap:7%
+    }
     .aboutus{
         height: 145lvh;
     }
