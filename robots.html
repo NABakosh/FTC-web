@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Overview</title>
+    <style>
+        body {
+            font-family: "Inter", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .header {
+            background-color: #1b355c;
+            color: #fff;
+            height: 9lvh;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .robot-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            color: #1b355c;
+        }
+
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+        }
+
+        .content ul li::before {
+            content: "•";
+            color: #dbae46;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .why-section {
+            margin-top: 20px;
+        }
+
+        .why-section h3 {
+            font-size: 1.5rem;
+            color: #1b355c;
+            margin-bottom: 10px;
+        }
+
+        .why-section p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Robot Overview</h1>
+    </header>
+
+    <div class="container">
+        <img src="robot.jpg" alt="Robot Image" class="robot-image">
+        <div class="content">
+            <h2>Introducing ARQAR</h2>
+            <p>And its Distinctive Industrial Design Elements</p>
+            <ul>
+                <li><strong>Dimensions:</strong> Length: 26 cm (without wheels), 35 cm (with wheels); Width: 32 cm (main body), 37 cm (overall)</li>
+                <li><strong>Material:</strong> Constructed from Alucobond for durability and stability</li>
+                <li><strong>Intake System:</strong> Designed to capture samples from any position, enhancing flexibility</li>
+                <li><strong>Lift Mechanism:</strong> Dual-function system combining arm and hand; Lift motor can elevate the entire robot, weighing 15 kg</li>
+            </ul>
+
+            <div class="why-section">
+                <h3>Why Call It ARQAR?</h3>
+                <p>When designing our robot, we set an ambitious goal: the robot should be able to climb to the top rung, lift itself securely, and hold on to that position without falling. This inspired us to think about the Kazakh mountain goat, Arqar, known for its incredible agility, balance, and strength on steep, rugged terrain. Just as the Arqar skillfully navigates high mountain cliffs, our robot is built to handle the challenging task of ascending and securing itself at height. Thus, we named our robot ARQAR to embody these qualities of resilience, strength, and precision.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
