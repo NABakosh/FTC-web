@@ -1,0 +1,115 @@
+/* Стиль заголовков */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Контейнер для карточек */
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* Карточки */
+.card {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #dbae46;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .team-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.mentors p{
+    color:rgb(212, 1, 1)
+}
+.connects p{
+    color:rgb(79, 94, 145);
+}
+.participiants p{
+    color:rgb(79, 94, 145);
+}
+.team {
+    position: relative;
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Цвет фона */
+}
+
+.team {
+    position: relative;
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Цвет фона */
+    overflow: hidden; /* Чтобы текст-фон не выходил за границы секции */
+}
+
+.team::before {
+    content: "We Are"; /* Верхний текст */
+    position: fixed;
+    top: 30%; /* Позиция сверху */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px; /* Размер текста */
+    font-family: Algerian, sans-serif; /* Шрифт текста */
+    color: #e1b24338; /* Полупрозрачный красный */
+    white-space: nowrap;
+    z-index: 0; /* Отправить текст на задний план */
+    pointer-events: none; /* Чтобы текст не мешал взаимодействию */
+}
+
+.team::after {
+    content: "Uly Dala"; /* Нижний текст */
+    position: fixed;
+    top: 50%; /* Позиция для нижнего текста */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px; /* Размер текста */
+    font-family: Algerian, sans-serif; /* Шрифт текста */
+    color: rgba(79, 94, 145,0.3); /* Полупрозрачный синий */
+    white-space: nowrap;
+    z-index: 0; /* Отправить текст на задний план */
+    pointer-events: none; /* Чтобы текст не мешал взаимодействию */
+}
+
+.team .mentors,
+.team .participants,
+.team .connects {
+    position: relative;
+    z-index: 1; /* Поднимаем остальные элементы выше текста */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+}
