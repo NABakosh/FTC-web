@@ -7,9 +7,14 @@
     .team-box nav{ 
     height: 70%;
     }
+    .ourteam button{
+        width:10%;
+    }
 }
 @media (max-width: 1366px) {
-    
+    .robots button{
+        width: 13%;
+    }
 }
 @media (max-width:1000px) {
     
@@ -21,6 +26,7 @@
     }
     .team-box nav{
         width: 80%;
+        height: 55%;
     }
     .ourteam article{
         width: 50%;
@@ -31,15 +37,23 @@
         margin-top:10%;
         padding-bottom:50px;
     }
-    .ourteam{
 
-    }
     .ourteam article{
         width: 80%;
     }
     .team-box{
         height: 130%;
     }
+    .ourteam button{
+        width:15%;
+    }
+    .robots button{
+        width: 17%;
+    }
+    .robots article{
+        width: 100%;
+    }
+
 }
    
 @media (max-width:800px) {
@@ -52,6 +66,9 @@
     .aboutus article{
         width: 80%;
     }
+    .robots img{
+        width: 50%;
+    }
 }
 @media (max-width:700px) {
     .team-mentors{
@@ -60,7 +77,22 @@
     .home header nav aside{
         width: 40%;
     }
-}
+    .team-box{
+        width: 50%;
+    }
+    .ourteam button{
+        width:20%;
+    }
+    .team-box nav{
+        height: 70%;
+    }
+    .robots button{
+        width: 20%;
+    }
+    .robots img{
+        width: 60%;
+    }
+}   
 @media (max-width: 500px) {
     .card{
         margin-top:25%;
@@ -72,8 +104,31 @@
     .aboutus article{
         width: 100%;
     }
+    .ourteam button{
+        width:40%;
+        height: 4%;
+    }
+    .robots button{
+        width: 30%;
+    }
+    .robots img{
+        width: 80%;
+    }
 }
 @media (max-width:600px) {
+    .team-box nav{
+        height: 50%;
+    
+    }
+    .ourteam{
+        height: 70lvh;
+    }
+    .ourteam button{
+        margin-top: -10%;
+    }
+    .ourteam{
+        height: 140lvh;
+    }
     .aboutus{
         height: 120lvh;
     }
@@ -86,6 +141,17 @@
     }
     .home main button{
         width: 30%;
+    }
+    .team-people{
+        margin-top: -20%;
+    }
+    .ourteam aside{
+        margin-top:-20%;
+        padding-bottom: 2%;
+    }
+    .ourteam button{
+        width:20%;
+        height: 4%;
     }
 }
 @media (max-width: 450px) {
