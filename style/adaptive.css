@@ -12,8 +12,12 @@
     
 }
 @media (max-width:1000px) {
+    
     .home header nav aside{
-        width: 100%;
+        width: 30%;
+    }
+    .aboutus{
+        height: 110lvh;
     }
     .team-box nav{
         width: 80%;
@@ -27,10 +31,21 @@
         margin-top:10%;
         padding-bottom:50px;
     }
+    .ourteam{
 
+    }
+    .ourteam article{
+        width: 80%;
+    }
+    .team-box{
+        height: 130%;
+    }
 }
    
 @media (max-width:800px) {
+    .aboutus{
+        height: 110lvh;
+    }
     .aboutus aside{
         width: 55%;
     }
@@ -42,15 +57,72 @@
     .team-mentors{
         justify-content: space-around;
     }
+    .home header nav aside{
+        width: 40%;
+    }
 }
-@media (max-width: 350px) {
-    
+@media (max-width: 500px) {
+    .card{
+        margin-top:25%;
+        padding-bottom:50px;
+    }
+    .home header nav aside{
+        width: 50%;
+    }
     .aboutus article{
         width: 100%;
     }
 }
 @media (max-width:600px) {
-    
+    .aboutus{
+        height: 120lvh;
+    }
+    .card{
+        margin-top:15%;
+        padding-bottom:50px;
+    }
+    .home main nav{
+        height: 65%;
+    }
+    .home main button{
+        width: 30%;
+    }
+}
+@media (max-width: 450px) {
+    .aboutus{
+        height: 135lvh;
+    }
+    .card{
+        margin-top:30%;
+        padding-bottom:50px;
+    }
+    .home header nav aside{
+        width: 50%;
+    }
+    .aboutus article{
+        width: 100%;
+    }
+    .home main nav{
+        height: 65%;
+    }
+    .home main button{
+        width: 40%;
+    }
+}
+@media (max-width: 350px) {
+    .aboutus{
+        height: 145lvh;
+    }
+    .card{
+        margin-top:30%;
+        padding-bottom:50px;
+    }
+    .home header nav aside{
+        width: 50%;
+    }
+    .aboutus article{
+        width: 100%;
+    }
 }
 /*.team-box nav{
         height: 50%;
